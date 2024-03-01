@@ -1,0 +1,72 @@
+prompt,response
+What are Active and Passive components?,"Active components are those electrical components which require an external source for its full operation such as Diode, Transistor, Thyristor etc.
+
+Passive components are those components which do not need any external source for its function. Example of passive components is resistor, capacitor & Inductor."
+What is Practical & Ideal Voltage Source?,"A voltage source having some internal resistance is called a practical voltage source. Due to this resistance, there is a voltage drop. The supply voltage of the practical voltage source decreases with an increase in the current.     If the internal resistance of a voltage source becomes zero the source is said to be an ideal voltage source. And its voltage does not decrease with the increase in current."
+What is Practical & Ideal Current Source?,The ideal current source has infinite internal resistance. Its current does not depend on its supply voltage.  A practical current source has a large internal resistance. Its supply current decreases with the increase in its supply voltage.
+What is Norton theorem?,Norton’s theorem states that any 2-terminal linear and bilateral network or circuit having multiple independent and dependent sources can be represented in a simplified equivalent circuit known as Norton’s equivalent circuit.
+What is Thevenin theorem?,"Thevenin's theorem states that it is possible to simplify any linear circuit, irrespective of how complex it is, to an equivalent circuit with a single voltage source and a series resistance."
+What is a Transistor?,A transistor is a three-terminal semiconductor device. It is can be used for amplifying or switching an electrical signal.
+How does the Transistor act as a Switch?,"There are three useful regions of operation of a transistor namely saturation region, cutoff region & active region.
+In the active region, the transistor acts as an amplifier.
+In the saturation region, the transistor acts as a closed switch.
+In the cutoff region, the transistor acts as an open switch.
+So to use a transistor as a switch, it needs to be operated in the saturation & cutoff region."
+What is meant by Clipper ?,"A clipper is a circuit that clips or cutoff voltage above or below a certain specified level. Positive clipper cuts off a portion of positive half of a signal while negative clipper cuts off from the negative half.
+
+"
+What is Clamper?,A clamper is a circuit that adds voltage in the positive or negative half of the signal to a specified peak voltage. A clamper moves the whole signal up and down to reach the specified peak voltage.
+What is SCR?,"Silicon controlled rectifier or thyristor is unidirectional semiconductor device but unlike diode, it has three terminals Anode, Cathode & Gate. The SCR can be switched on & off using the gate input."
+What is Diode?,A diode is a unidirectional semiconductor device with two terminals called Anode & Cathode. A diode can allow current in only one direction which is known as forward bias.
+Difference between Silicon and Germanium Diode & why is Silicon diode preferred?,The voltage drop of a silicon diode is 0.7v and that of germanium diode is 0.3v.  Silicon crystals are more resistant to heat than germanium.  Silicon diode has a high voltage rating than the germanium diode.  Silicon diodes are more preferable because silicon is available in abundant compared to germanium.
+What is the main difference between BJT and FET?,"BJT stand for bipolar junction transistor and FET is the acronym for Field Effect Transistor.  BJT is bipolar that is there is a flow of both minority and majority charge carriers, while FET is unipolar that is there is a flow of only majority carriers.  BJT is controlled using the input current (base current) while FET is controlled using the input voltage (Gate voltage).  The input impedance of FET is much higher compared to BJT.  The three terminals of BJT is emitter, base & collector while FET is drain, gate & source"
+What is a Transformer?,A transformer is a static electrical device which transfers electrical energy from one circuit to another circuit without any physical connection instead it uses the principles of electromagnetic induction. A transformer either increase or decrease the input voltage & current.
+What is Oscillator?,An oscillator is an electronic circuit which generates a periodic AC signal from a DC source. An oscillator has no input. The output of oscillator can be sinusoidal or Square or a triangle wave.
+What is Communication?,The transfer of information from one place to another place using some sort of medium is called Communication. The information could be in any form such as a sound or visual or electrical signal etc.
+What is the Baseband Signal?,"A signal consisting of significantly lower frequency (up to 10 kHz) is known as a baseband signal.  Example of the baseband signal is voice (300Hz to 3.5 kHz ), audio (20 Hz to 20 kHz) and a video signal (0Hz to 4.5 MHz).  The baseband signal cannot be transmitted directly through the antenna. They are transmitted using copper wire or fiber optics etc."
+What is a Bandpass or Passband Signal?,A signal consisting of significantly higher frequencies (Higher than 100 kHz) is known as Passband or BandPass signal. Bandpass signal does not contain any frequency lower than 100 kHz.  Bandpass signal can be directly transmitted through the antenna.
+What is Modulation?,"The process in which one of the characteristic parameter (amplitude, frequency, phase) of the carrier signal varies linearly with respect to message signal’s amplitude is called modulation.
+"
+Why do we need Modulation?,"Modulation converts a baseband signal into a passband signal making it suitable for long distance communication using an antenna.
+
+Antenna size also depends on the frequency of the transmitting signal, so the modulation allows us to use a small size antenna.
+
+Using Modulation we can assign different frequencies to different signals which allow us to send multiple signals using the same medium without interference."
+What is Demodulation?,The demodulation is a process of extracting the information or message signal from the received or modulated signal.
+What is the Nyquist Criteria for Sampling?,Suppose the maximum frequency of the analog signal is fmax then the Nyquist criteria suggest that the sampling rate for this analog signal must be 2fmax or greater.
+What is a Filter?,"A Filter is an electronic circuit that removes specific or unwanted frequency components from a signal. The types of filters are:
+
+Low pass filter
+Bandpass filter
+Band stop or band reject filter
+High pass filter
+Notch filter"
+What is the Cutoff Frequency?,"The cutoff frequency is the point in a filter’s frequency response where the pass band and stop band meets. A filter rejects or passes frequency components below or above cutoff frequency depending on the type of the filter.
+
+The cutoff frequency is taken at -3db (Half power) of the maximum amplitude."
+What is Passband?,"The passband is the range of frequencies that can be passed through the filter without any attenuation.
+"
+What is Stop band?,The stopband is the range of frequencies that are attenuated and cannot be passed through the filter.
+What is a Logic Gate?,A digital logic gate is an electronic device which implements the Boolean function. The boolean function performs a logical operation on one or more than one binary numbers.
+What are basic Logic Gates?,"There are seven basic logic gates. NOT, AND, OR, NAND, NOR, XOR, XNOR gate."
+What are derived Logic Gates?,"Derived logic gates are those gate which can be made from these three basic logic gates NOT, AND & OR.
+
+NAND, NOR, XOR & XNOR are derived logic gates. Basic logic can be combined together to make these gates."
+What is a Universal Logic Gate?,A universal gate is a logic gate which can be solely used to implement any kind of boolean function. There are two universal logic gates namely NAND & NOR gate.
+What are Latches and Flip-Flops? Differences,"Latch and flip-flop are memory devices with two stable states. They are used for storing data (states) in sequential logic. The states are controlled using one or more than one control signals. It can store one bit of data.
+
+The main difference between a latch and flip-flop is that latch is triggered (change states) by the level of input control signal & the flip-flop is triggered using the edge of input control signal known as a clock signal.
+
+So we can say that latches are level-triggered devices and flip-flops are edge-triggered devices."
+What is Ripple Carry Adder and Carry Look Ahead Adder?,"These two Digital binary adders are differentiated based on the carry determining technique.
+
+In ripple carry adder, the carry bits ripple through each individual adder while in a carry-look-ahead adder, the carry bit is determined separately using a CLA (Carry look ahead) block.
+
+CLA adder operates much faster than ripple adder as it bypasses many stages."
+What is an Op-Amp?,Operational amplifier often known as op-amp is an active voltage amplifying component. It can amplify voltage based on the difference of voltage between its two inputs.
+What is Inverting and Non-inverting Amplifier?,"When the input voltage signal is applied to a non-inverting terminal (+ve terminal) of the Op-amp, the op-amp is said to be in a non-inverting configuration. Its gain is positive i.e. its output signal is in-phase with the input signal.
+
+In inverting op-amp configuration, the input signal is applied to the inverting terminal (-ve terminal) of an op-amp. The gain of inverting op-amp is negative and the output signal is 180 degree out of phase with respect to the input signal."
+What is the input and output Impedance of an Op-Amp?,"The input impedance of op-amp between its differential inputs is very high usually in Mega Ohms to Tera Ohms (ideally infinite). That is why the input current of an op-amp is very low (almost negligible)
+
+The output impedance of an op-amp is very low (ideally zero)."
